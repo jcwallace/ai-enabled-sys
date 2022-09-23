@@ -1,6 +1,7 @@
 ## Imports
 import numpy as np
 import pandas as pd
+import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import LancasterStemmer
 from nltk.stem import WordNetLemmatizer
@@ -32,4 +33,4 @@ data = {'Tokens': tokens,
         'Lemmenize': lemms}
 processed_df = pd.DataFrame(data,columns=["Tokens","Stems","Lemmenize"])
 
-print( processed_df )
+print( processed_df.to_string() )
