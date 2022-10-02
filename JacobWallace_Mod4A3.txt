@@ -1,0 +1,2 @@
+Github: https://github.com/jcwallace/ai-enabled-sys
+Dockerhub: https://hub.docker.com/repository/docker/jacobcw/ai-enabled-sys-mod4
