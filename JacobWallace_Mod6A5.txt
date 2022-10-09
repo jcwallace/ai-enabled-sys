@@ -1,0 +1,40 @@
+
+Review Questions
+1. Name two use cases for key-value databases.
+    - Caching data from relational databases to improve performance
+    - Tracking transient attributes in a web application, such as a shopping cart
+
+2. Describe two reasons for choosing a key-value database for your application.
+    - Storing larger objects
+    - Key based look up, provides short term flexibility
+
+3. Name two use cases for document databases.
+    - Applications that use JSON data structures
+    - Managing data types with variable attributes
+
+4. Describe two reasons for choosing a document database for your application.
+    - Cloud deployment for your database
+    - Tracking variable types of metadata
+
+5. Name two use cases for column family databases.
+    - Applications that are geographically distributed over multiple data centers
+    - Applications that can tolerate some short-term inconsistency in replicas
+
+6. Describe two reasons for choosing a column family database for your application.
+    - Distributed data across multiple server/clusters
+    - High availability, high volume read/writes (talking hundreds of TB)
+
+7. Name two use cases for graph databases.
+    - IT administration (identity and access management)
+    - Social Networking
+
+8. Describe two reasons for choosing a graph database for your application.
+    - When data is represented as networks and entities
+    - Transactional data "connecting" actors
+
+9. Name two types of applications well suited for relational databases.
+    - Transaction processing systems
+    - Mobile device services
+
+10. Discuss the need for both NoSQL and relational databases in enterprise data management.
+    Application require accessing data in different forms and each database type has its own strengths and weaknesses as discussed. So by pairing the two types of databases together gives the best of all worlds. So using both/multiple database technologies are required for companies transitioning from older data types that didnt have relations in mind but can still utilize the benefits of such a system. But utlimately its to organize your data in the best format for whichever application is accessing said data, having access to your data adaptively is the true answer here.
